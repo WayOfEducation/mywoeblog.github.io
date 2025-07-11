@@ -1,19 +1,15 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Movies — My W.O.E</title>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Rock+Salt&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet" />
   <style>
     body {
       margin: 0;
       font-family: 'EB Garamond', serif;
-      background: url('https://www.transparenttextures.com/patterns/paper-fibers.png') repeat;
-      background-color: #f5f1e8;
-      color: #1f1d1a;
-      line-height: 1.8;
+      background: #f5f1e8 url('https://www.transparenttextures.com/patterns/paper-fibers.png') repeat;
       display: flex;
     }
     aside {
@@ -34,47 +30,32 @@
       color: #8c6a43;
       text-decoration: none;
       font-weight: bold;
-      font-size: 1rem;
     }
     main {
       flex: 1;
       padding: 2rem;
     }
-    header {
-      text-align: left;
-      margin-bottom: 3rem;
-    }
     h1 {
-      font-family: 'Rock Salt', cursive;
-      font-size: 2.5rem;
-      color: #3c2e1e;
-      margin-bottom: 0.2rem;
+      font-family: 'EB Garamond', serif;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
     }
     h2 {
-      font-size: 1.5rem;
+      border-bottom: 1px solid #c7bca1;
       margin-top: 2rem;
-      border-bottom: 1px solid #d4c2a4;
-      padding-bottom: 0.3rem;
     }
-    .post {
-      max-width: 700px;
-      margin: auto;
-      background: rgba(255, 255, 255, 0.7);
-      padding: 2rem;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-      border: 1px solid #e3d9ca;
+    ul {
+      list-style: square;
+      padding-left: 1.5rem;
     }
-    .tags {
-      font-size: 0.9rem;
-      color: #7b6d58;
-      margin-top: 1rem;
+    li {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+    .status {
       font-style: italic;
-    }
-    footer {
-      text-align: center;
-      margin-top: 4rem;
-      font-size: 0.8rem;
-      color: #aaa;
+      color: #6d5f4f;
+      margin-left: 0.6rem;
     }
   </style>
 </head>
@@ -82,7 +63,6 @@
   <aside>
     <nav>
       <a href="index.html">Home</a>
-      <a href="about.html">About</a>
       <a href="books.html">Books</a>
       <a href="movies.html">Movies</a>
       <a href="art.html">Art</a>
@@ -93,20 +73,117 @@
   </aside>
 
   <main>
-    <header>
-      <h1>My W.O.E</h1>
-      <p><em>Movies</em></p>
-    </header>
+    <h1>Some Favorite Movies</h1>
+    <p>My favorite films, categorized by tone and theme.</p>
 
-    <section class="post">
-      <h2>The Green Knight</h2>
-      <p>David Lowery’s retelling of the Arthurian legend blends myth, mortality, and dreamlike storytelling. I find it both ethereal and unsettling in the best ways.</p>
-      <div class="tags">Tags: movies, mythology, A24</div>
-    </section>
+    <h2>Philosophical / Psychological</h2>
+    <ul>
+      <li>Persona</li> 
+      <li>Stalker</li>
+      <li>The Seventh Seal</li>
+      <li>I'm Thinking of Ending Things</li>
+      <li>The Elephant Man</li>
+    </ul>
 
-    <footer>
-      <p>&copy; 2025 My W.O.E — All rights reserved.</p>
-    </footer>
+    <h2>Emotional / Human Stories</h2>
+    <ul>
+      <li>In the Mood for Love</li>
+      <li>Paris, Texas</li>
+      <li>The Lives of Others</li>
+      <li>Life is Beautiful</li>
+      <li>The Intouchables</li>
+      <li>Another Year</li>
+      <li>Call Me by Your Name</li>
+    </ul>
+
+    <h2>Dark / Horror / Gothic</h2>
+    <ul>
+      <li>The Witch</li>
+      <li>Rosemary's Baby</li>
+      <li>The Babadook</li>
+      <li>Nosferatu (1922)</li>
+      <li>The Others</li>
+      <li>The Face of Another</li>
+    </ul>
+
+    <h2>Folkloric / Myth-Inspired</h2>
+    <ul>
+      <li>The Green Knight</li>
+      <li>Song of the Sea</li>
+      <li>Andrei Rublev</li>
+      <li>Hellblade (see Games)</li>
+    </ul>
+
+    <h2>Fantasy / Animation</h2>
+    <ul>
+      <li>Spirited Away</li>
+      <li>The Wind Rises</li>
+      <li>Howl’s Moving Castle</li>
+      <li>The Boy and the Heron</li>
+      <li>Wolf Children</li>
+      <li>Coraline</li>
+    </ul>
+
+    <h2>Crime / Mystery / Noir</h2>
+    <ul>
+      <li>Silence of the Lambs</li>
+      <li>Sicario</li>
+      <li>Prisoners</li>
+      <li>The Prestige</li>
+      <li>The Girl with the Dragon Tattoo</li>
+      <li>Oldboy (2003)</li>
+    </ul>
+
+    <h2>Coming of Age / Youth</h2>
+    <ul>
+      <li>Rushmore</li>
+      <li>Before Sunrise</li>
+      <li>The Holdovers</li>
+      <li>Dead Poets Society</li>
+      <li>Whiplash</li>
+      <li>How to Train Your Dragon</li>
+    </ul>
+
+    <h2>Classic / Golden Era</h2>
+    <ul>
+      <li>Brief Encounter (1945)</li>
+      <li>12 Angry Men (1957)</li>
+      <li>All About Eve</li>
+      <li>My Fair Lady</li>
+    </ul>
+
+    <h2>Satirical / Comedic</h2>
+    <ul>
+      <li>Monty Python</li>
+      <li>The Truman Show</li>
+      <li>The Grand Budapest Hotel</li>
+      <li>The IT Crowd</li>
+      <li>The League of Gentlemen</li>
+      <li>Black Adder</li>
+    </ul>
+
+    <h2>Historical / Political</h2>
+    <ul>
+      <li>Schindler's List</li>
+      <li>12 Years a Slave</li>
+      <li>Capernaum</li>
+      <li>A Separation</li>
+      <li>Nostalghia</li>
+    </ul>
+
+    <h2>Uncategorized / To Sort</h2>
+    <ul>
+      <li>Donnie Darko</li>
+      <li>Trick 'r Treat</li>
+      <li>Anora</li>
+      <li>Leon: The Professional</li>
+      <li>The Terminal</li>
+      <li>The Ghost Story</li>
+      <li>Captain Fantastic</li>
+      <li>Phantom Thread</li>
+      <li>Snowpiercer</li>
+      <li>Il Vitelloni</li>
+    </ul>
   </main>
 </body>
 </html>
